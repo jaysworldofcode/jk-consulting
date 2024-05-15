@@ -20,9 +20,9 @@ const CallToAction = () => {
                 </p>
                 <Link
                   href="/contact"
-                  className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
+                  className="font-black inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base text-white transition hover:bg-[#0BB489]"
                 >
-                  Contact Us Now!
+                  Contact Us
                 </Link>
               </div>
             </div>

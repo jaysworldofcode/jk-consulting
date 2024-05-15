@@ -69,7 +69,7 @@ const Contact = () => {
               data-wow-delay=".2s
               "
             >
-              <h3 className="mb-8 text-2xl font-semibold text-dark dark:text-white md:text-[28px] md:leading-[1.42]">
+              <h3 className="mb-8 text-2xl font-black text-dark dark:text-white md:text-[28px] md:leading-[1.42]">
                 Send us a Message
               </h3>
               <form>
@@ -132,7 +132,7 @@ const Contact = () => {
                 <div className="mb-0">
                   <button
                     type="submit"
-                    className="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-primary/90"
+                    className="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-black text-white transition duration-300 ease-in-out hover:bg-primary/90"
                   >
                     Send
                   </button>

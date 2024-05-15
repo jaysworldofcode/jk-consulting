@@ -262,7 +262,7 @@ const Header = () => {
               <Link
                 scroll={false}
                 href='/contact'
-                className={`ud-menu-scroll flex py-2 mr-4 text-base p-4 ${
+                className={`ud-menu-scroll flex py-2 mr-4 text-base font-black p-4 ${
                   sticky
                     ? "rounded-md bg-primary text-white"
                     : "rounded-md bg-white text-primary"

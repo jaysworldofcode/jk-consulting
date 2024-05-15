@@ -19,9 +19,9 @@ const About = () => {
                 />
                 <a
                   href="/#"
-                  className="mt-4 inline-flex items-center justify-center rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white duration-300 hover:bg-primary/90"
+                  className="font-black mt-4 inline-flex items-center justify-center rounded-md bg-primary px-7 py-3 text-center text-base text-white duration-300 hover:bg-primary/90"
                 >
-                  Know More
+                  Get Started
                 </a>
               </div>
             </div>
