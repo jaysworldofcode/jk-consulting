@@ -8,8 +8,8 @@ const featuresData: Feature[] = [
     ),
     title: "Business Automation Services",
     paragraph: "We use cutting edge technolog to automate processes and functions within your organization.",
-    btn: "Learn More",
-    btnLink: "/#",
+    btn: "Get started",
+    btnLink: "/contact",
   },
   {
     id: 2,
@@ -29,8 +29,8 @@ const featuresData: Feature[] = [
     ),
     title: "Web and Mobile Development",
     paragraph: "We create high-quality mobile and web applications using the latest technologies.",
-    btn: "Learn More",
-    btnLink: "/#",
+    btn: "Get started",
+    btnLink: "/contact",
   },
   {
     id: 3,
@@ -42,8 +42,8 @@ const featuresData: Feature[] = [
     ),
     title: "Virtual Assistance Agency",
     paragraph: "Our services includes Travel Bookings, Community Moderation, Social Media Marketing, Digital Marketing and Graphics and Digital Illustration Services",
-    btn: "Learn More",
-    btnLink: "/#",
+    btn: "Get started",
+    btnLink: "/contact",
   },
 ];
 export default featuresData;

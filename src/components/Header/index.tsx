@@ -155,7 +155,7 @@ const Header = () => {
                               onClick={navbarToggleHandler}
                               scroll={false}
                               href={menuItem.path}
-                              className={`ud-menu-scroll flex py-2 text-base text-dark group-hover:text-primary dark:text-white dark:group-hover:text-primary lg:inline-flex lg:px-0 lg:py-6 ${
+                              className={`font-black ud-menu-scroll flex py-2 text-base text-dark group-hover:text-primary dark:text-white dark:group-hover:text-primary lg:inline-flex lg:px-0 lg:py-6 ${
                                 pathUrl === menuItem?.path && "text-primary"
                               }`}
                             >
@@ -165,7 +165,7 @@ const Header = () => {
                             <Link
                               scroll={false}
                               href={menuItem.path}
-                              className={`ud-menu-scroll flex py-2 text-base lg:inline-flex lg:px-0 lg:py-6 ${
+                              className={`font-black ud-menu-scroll flex py-2 text-base lg:inline-flex lg:px-0 lg:py-6 ${
                                 sticky
                                   ? "text-dark group-hover:text-primary dark:text-white dark:group-hover:text-primary"
                                   : "text-body-color dark:text-white lg:text-white"
