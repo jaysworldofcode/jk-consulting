@@ -12,18 +12,17 @@ const CallToAction = () => {
                   <span>What Are You Looking For?</span>
                   <span className="text-3xl font-normal md:text-[40px]">
                     {" "}
-                    Get Started Now{" "}
+                    Let's get things done!{" "}
                   </span>
                 </h2>
                 <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
-                  There are many variations of passages of Lorem Ipsum but the
-                  majority have suffered in some form.
+                  Don't let technology be a barrier to your success. Partner with us and see the difference experts consulting can make.
                 </p>
                 <Link
-                  href="/"
+                  href="/contact"
                   className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
                 >
-                  Start using Play
+                  Contact Us Now!
                 </Link>
               </div>
             </div>

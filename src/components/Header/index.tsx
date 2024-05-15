@@ -54,7 +54,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4">
+            <div className="px-4">
               <Link
                 href="/"
                 className={`navbar-logo block w-full ${
@@ -64,17 +64,17 @@ const Header = () => {
                 {pathUrl !== "/" ? (
                   <>
                     <Image
-                      src={`/images/logo/logo.svg`}
+                      src={`/images/logo/jk-logo-sm.png`}
                       alt="logo"
-                      width={240}
-                      height={30}
+                      width={50}
+                      height={50}
                       className="header-logo w-full dark:hidden"
                     />
                     <Image
-                      src={`/images/logo/logo-white.svg`}
+                      src={`/images/logo/jk-logo-white-sm.png`}
                       alt="logo"
-                      width={240}
-                      height={30}
+                      width={50}
+                      height={50}
                       className="header-logo hidden w-full dark:block"
                     />
                   </>
@@ -83,19 +83,19 @@ const Header = () => {
                     <Image
                       src={`${
                         sticky
-                          ? "/images/logo/logo.svg"
-                          : "/images/logo/logo-white.svg"
+                          ? "/images/logo/jk-logo-sm.png"
+                          : "/images/logo/jk-logo-white-sm.png"
                       }`}
                       alt="logo"
-                      width={140}
-                      height={30}
+                      width={50}
+                      height={50}
                       className="header-logo w-full dark:hidden"
                     />
                     <Image
-                      src={"/images/logo/logo-white.svg"}
+                      src={"/images/logo/jk-logo-white-sm.png"}
                       alt="logo"
-                      width={140}
-                      height={30}
+                      width={50}
+                      height={50}
                       className="header-logo hidden w-full dark:block"
                     />
                   </>
@@ -259,6 +259,17 @@ const Header = () => {
                 </nav>
               </div>
               <div className="hidden items-center justify-end pr-16 sm:flex lg:pr-0">
+              <Link
+                scroll={false}
+                href='/contact'
+                className={`ud-menu-scroll flex py-2 mr-4 text-base p-4 ${
+                  sticky
+                    ? "rounded-md bg-primary text-white"
+                    : "rounded-md bg-white text-primary"
+                }`}
+              >
+                Let's Talk
+              </Link>
                 {/* theme toggler */}
                 <button
                   aria-label="theme toggler"
@@ -285,7 +296,6 @@ const Header = () => {
                     </svg>
                   </span>
                 </button>
-
                 {/* {session?.user ? (
                   <>
                     <p

@@ -177,7 +177,7 @@ export default async function Post({ params }: Props) {
                 </div>
                 <div className="w-full px-4 lg:w-4/12">
                   <div>
-                    <Newsletter />
+                    {/* <Newsletter /> */}
 
                     <div className="-mx-4 mb-8 flex flex-wrap">
                       <div className="w-full px-4">
