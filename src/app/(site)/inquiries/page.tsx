@@ -1,0 +1,19 @@
+import Breadcrumb from "@/components/Common/Breadcrumb";
+import Faq from "@/components/Faq";
+import Pricing from "@/components/Pricing";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Pricing Page | J.K. Consultancy Agency",
+  description: "This is pricing page description",
+};
+
+const Inquiries = () => {
+  return (
+    <>
+    </>
+  );
+};
+
+export default Inquiries;

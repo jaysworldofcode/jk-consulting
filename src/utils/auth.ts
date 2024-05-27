@@ -55,7 +55,6 @@ export const authOptions: NextAuthOptions = {
         // console.log(passwordMatch);
 
         if (!passwordMatch) {
-          console.log("test", passwordMatch);
           throw new Error("Incorrect password");
         }
 

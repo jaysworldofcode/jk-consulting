@@ -16,31 +16,31 @@ const Faq = () => {
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="How to use TailGrids?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="What industries do you specialize in?"
+              answer="We serve a wide range of industries, including government, healthcare, finance, education, e-commerce, and more. Our solutions are tailored to meet the specific needs of each sector."
             />
             <SingleFaq
-              question="How to download icons from LineIcons?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="How do you ensure the security of my data when using your automation services?"
+              answer="Data security is our top priority. We implement robust security protocols, including encryption, access controls, and regular backups, to protect your sensitive information."
             />
             <SingleFaq
-              question="Is GrayGrids part of UIdeck?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="What is the typical turnaround time for web and mobile development projects?"
+              answer="The timeline for each project varies depending on its complexity and scope. We work closely with you to establish realistic timelines and keep you updated on progress."
             />
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="Can I use this template for commercial project?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Can I hire a virtual assistant for just a few hours a week?"
+              answer="Absolutely! Our virtual assistant services are flexible and scalable. You can choose a plan that best suits your needs, whether it's a few hours a week or full-time support."
             />
             <SingleFaq
-              question="Do you have plan to releasing Play Pro?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="What is your pricing structure?"
+              answer="Our pricing varies depending on the specific services you require and the scope of the project. We offer free consultations to discuss your needs and provide a customized quote."
             />
             <SingleFaq
-              question="Where and how to host this template?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="How do I get started?"
+              answer="Simply contact us through our website or give us a call to schedule a free consultation. We'll discuss your needs and goals, then develop a plan that aligns with your vision and budget."
             />
           </div>
         </div>

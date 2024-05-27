@@ -15,7 +15,7 @@ const About = () => {
                 <SectionTitle
                   subtitle="About Us"
                   title="Why Choose Us?"
-                  paragraph="We are a team of dedicated professionals committed to transforming your technology challenges into powerful business opportunities. Our mission is to empower organizations through cutting-edge IT solutions, tailored to meet their unique needs."
+                  paragraph="Consider us an extension of your team. We partner with you every step of the way, offering expertise, flexibility, and a relentless focus on achieving your goals. From automation to marketing, we offer a one-stop shop for all your digital needs. Simplify your operations and maximize efficiency with our comprehensive suite of services."
                 />
                 <a
                   href="/#"

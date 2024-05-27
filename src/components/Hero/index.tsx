@@ -19,7 +19,7 @@ const Hero = () => {
                   J.K. Consulting Agency
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                Welcome to JK Consulting Services. Elevate Your Business with Innovative Solutions
                 </p>
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
@@ -34,7 +34,7 @@ const Hero = () => {
 
                 <div>
                   <p className="mb-4 text-center text-base font-medium text-white/60">
-                    Excepteur sint occaecat cupidatat non proident
+                    Your Partner for Growth and Efficiency
                   </p>
                   {/* <div
                     className="wow fadeInUp flex items-center justify-center gap-4 text-center"
