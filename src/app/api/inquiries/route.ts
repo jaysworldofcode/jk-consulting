@@ -1,9 +1,9 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { new_inquiries } from '@/repository/InquiriesRepository'
 
 const postHandler = async (
-  req: NextApiRequest, res: NextApiResponse
+  req: NextRequest, res: NextApiResponse
 ) => {
     const data = await req.json()
 
